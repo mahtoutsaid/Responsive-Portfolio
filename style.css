@@ -1,0 +1,174 @@
+/*-------Container-------*/
+#container{
+	margin: 0 auto;
+}
+/*-------End container----*/
+
+/*-------Nav Bar-------*/
+nav {
+	margin: 0 auto;
+	background-color:#ffffff;	
+}
+#nav-div { 
+	margin: 0 auto;
+	width: 960px;
+	background-color:#ffffff;	
+}
+#nav-par {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	float: left;
+	background-color: #4aaaa5;
+	padding: 25px;
+	font-weight: bold;
+}
+nav ul { 
+padding-top: 20px;
+float: right;	
+}
+nav ul li {
+ 
+    list-style-type: : none;
+    display: inline-block;
+    
+    padding: 10px;
+    color: #000000;
+}
+nav ul a {
+
+	text-decoration: none;
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #000000;
+	font-size: 14px;
+}
+nav ul a:hover {
+	background-color:#4aaaa5;
+	border-radius: 4px;
+}
+/*-----End Nav Bar-----*/
+
+/*------Section-------*/
+.sec-div {
+	clear: both;
+	background-color:#dddddd;
+	padding-top: 40px;
+	height: 640px;
+}
+
+.main-div {
+	width: 920px;
+	background-color:#ffffff;
+	margin:0 auto;
+	padding: 20px;
+	position: relative;
+	overflow: auto;
+}
+.header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #4aaaa5;
+	clear: left;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+hr {
+	color: #dddddd;
+	border: solid 2px;
+	width: 920px;
+	margin-bottom: 25px;
+}
+
+/*About Me*/
+#about-me-imag {
+	width: 215px;
+	height: 155px;
+	float: left;
+	padding-right: 20px;
+}
+#about-me-para {
+	font-family:  'Georgia', Times, Times New Roman, serif;
+	line-height: 40px;
+	font-size: 20px;
+}
+/*End About Me*/
+
+/*Portfolio*/
+#portfolio-main-div {
+    height: 570px;
+}
+
+
+@media screen and (max-width: 180px) {
+		  .portfolio-img-div {
+		  	float: left;
+		  }
+		}
+
+
+
+.portfolio-img-div {
+	float: left;
+	margin: 15px 30px 0  0;
+}
+.portfolio-imag {
+	width: 300px;
+	height: 250px;
+}
+.imag-title {
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	font-size: 22px;
+	color: #ffffff;
+	padding-top: 20px;
+	position: relative;
+	bottom: 80px;
+	width: 100%;
+	height: 45px;
+}
+.imag-title:hover {
+	background-color: #808080;;
+}
+/*Eend Portfolio*/
+
+/*Contact*/
+.form-label {
+
+	font-size: 16px;
+
+}
+.form-input {
+	padding: 10px;
+	margin: 5px 0 5px 0;
+	width: 900px;
+
+}
+ button {
+ 	width: 80px;
+ 	height: 30px;
+ 	background-color:#4aaaa5; 
+ 	color: #ffffff;
+ 	font-weight: bold;
+ }
+button:hover {
+	background-color: #708090;
+}
+/*End Contact*/
+/*------End Section-----*/
+
+/*-----Footer-----*/
+#foot-div {
+	background-color:#666666; 
+	border-top: 8px solid #4aaaa5;
+}
+#foot-para {
+    padding-top: 35px;
+    padding-bottom: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+/*------End Footer-------*/
+
+
